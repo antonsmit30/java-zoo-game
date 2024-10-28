@@ -9,6 +9,11 @@ public class Game {
                 new Bear("Sally", 2, "black", 4),
                 new Bear("jacky", 4, "white", 6),
         };
+        // Instantiate our reptiles
+        Reptile[] crocodiles = {
+                new Crocodile(),
+        };
+
         // Lets create a habitat
         Habitat[] habitats = {
                 new Habitat("FOREST", 5),
