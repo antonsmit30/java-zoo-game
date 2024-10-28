@@ -29,6 +29,10 @@ public class Bear extends Mammal{
         return this.color;
     }
 
+    public String getDetails(){
+        return "Name: " + this.getName() + ", Age: " + this.getAge() + ", Color: " + this.getColor();
+    }
+
     // lets overLoad the setSize method, as bears cannot be smaller than 3
     public void setSize(int s) throws ArithmeticException{
 
