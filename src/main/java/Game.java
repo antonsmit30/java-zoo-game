@@ -12,6 +12,7 @@ public class Game {
         // Lets create a habitat
         Habitat[] habitats = {
                 new Habitat("FOREST", 5),
+                new Habitat("FOREST", 6),
                 new Habitat("MARSH", 3),
                 new Habitat("WATER", 5)
         };

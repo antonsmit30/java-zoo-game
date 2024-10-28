@@ -23,6 +23,10 @@ public class Habitat {
         this.length = length;
     }
 
+    public String getType(){
+        return this.type;
+    }
+
     public String getDetails(){
         return "Type: " + this.type + ", Area: " + this.getArea() + ", Animal Present: " + this.hasAnimalPresent;
     }
