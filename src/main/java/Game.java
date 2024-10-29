@@ -32,6 +32,16 @@ public class Game {
         System.out.println("Our habitats");
         for (Habitat habitat: habitats){
             System.out.println(habitat.getDetails());
+            System.out.println("The size of the habitats currently: " + habitat.getAnimalCount());
+        }
+
+        // Lets quickly add a bear to one of our habitats!
+        System.out.println("Adding a bear");
+        habitats[0].addToHabitat(bears[0]);
+        // Print our habitat again!
+        for (Habitat habitat: habitats){
+            System.out.println(habitat.getDetails());
+            System.out.println("The size of the habitats currently: " + habitat.getAnimalCount());
         }
     }
 }

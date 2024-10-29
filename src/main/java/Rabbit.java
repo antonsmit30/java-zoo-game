@@ -1,4 +1,11 @@
-public class Rabbit extends Mammal {
+public class Rabbit implements Animal {
+
+    protected String diet;
+    protected String name;
+    protected int age;
+    protected String color;
+    protected int size;
+
     public Rabbit(){
         this.diet = "grass";
     }
